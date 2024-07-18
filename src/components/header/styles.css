@@ -1,0 +1,21 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #01204E;
+    position: relative;
+}
+
+.app-header-logo-link {
+    width: 50px;
+}
+
+.app-header-logo {
+    width: 100%;
+}
+
+.app-header-user {
+    color: #e7eaf6;
+    font-size: 18px;
+}

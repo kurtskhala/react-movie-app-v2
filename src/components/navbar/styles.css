@@ -1,0 +1,17 @@
+.app-navbar {
+    display: flex;
+    column-gap: 5px;
+}
+
+.app-navbar button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.app-navbar button:hover {
+    text-shadow: 0 0 5px #05BCCA, 0 0 10px #05BCCA, 0 0 20px #05BCCA;
+}

@@ -1,0 +1,40 @@
+.app-guard {
+    display: flex;
+    width: 40%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #F6DCAC;
+    margin: 0 auto;
+    border: 3px solid #01204E; ;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.app-guard-header {
+    color: #028391;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.app-guard-buttons {
+    display: flex;
+    column-gap: 20px;
+}
+
+.app-guard-button:hover {
+    background-color: #028391;  
+    color:#01204E;
+}
+
+.app-guard-button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #01204E;
+    color: #F6DCAC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.app-movie-info {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.app-movie-info-title {
+    color: #028391;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.app-movie-info-desc {
+    color: #028391;
+    text-align: left;
+
+}
+
+.app-movie-info-rating-cont {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    color: #028391;
+}
+
+.app-movie-info-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #01204E;
+    font-weight: 800;
+    border-radius: 50%;
+}

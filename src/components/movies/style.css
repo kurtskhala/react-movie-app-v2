@@ -1,0 +1,26 @@
+.app-movies {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding: 40px;
+    min-height: 320px;
+}
+
+.app-movies-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    margin: 20px 0
+}
+
+.app-movies-pages button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #028391;
+}
+.app-movies-pages .active{
+    border: 2px solid #028391;
+}

@@ -1,0 +1,10 @@
+.app-movie {
+    display: flex;
+    padding: 50px 100px;
+    column-gap: 40px;
+}
+
+.app-movie-img {
+    width: 30%;
+    border-radius: 20px;
+}
